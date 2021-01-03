@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b73032f0-0380-4366-80cb-b53706d3effe" name="Default" comment="Тест окна авторизации без удаленного, заблокированного пользователя и теста полей на ввод.">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/m4bank/dvs/GeneralMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/m4bank/dvs/GeneralMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/m4bank/dvs/PagesInterfaces/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/m4bank/dvs/PagesInterfaces/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/m4bank/dvs/RUN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/m4bank/dvs/RUN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/m4bank/dvs/Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/m4bank/dvs/Settings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/m4bank/dvs/TestManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/m4bank/dvs/TestManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/m4bank/dvs/Tests/Authorisation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/m4bank/dvs/Tests/Authorisation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/m4bank/dvs/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/m4bank/dvs/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/m4bank/dvs/db/ConnectionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/m4bank/dvs/db/ConnectionUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/m4bank/dvs/db/OracleConnUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/m4bank/dvs/db/OracleConnUtils.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/AutoTest$RUN.coverage" NAME="RUN Coverage Results" MODIFIED="1548857815990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.m4bank.dvs.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="F:\IntelliJ IDEA Community Edition 2020.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1mYjdYvnSjUqNoH7AkD7No0zmxf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582639415069" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Deniska\IdeaProjects\AutoTest\src\main\java\com\m4bank\dvs" />
+      <recent name="C:\Users\Deniska\IdeaProjects\AutoTest\src\test\java\com\m4bank\dvs\Resources" />
+      <recent name="C:\Users\Deniska\IdeaProjects\AutoTest\src\test\java\com\m4bank\dvs" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.m4bank.dvs" />
+      <recent name="com.m4bank.dvs.PagesInterfaces" />
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Deniska\IdeaProjects\AutoTest\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.RUN">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RUN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.m4bank.dvs.RUN" />
+      <module name="AutoTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.m4bank.dvs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Authorisation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AutoTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.m4bank.dvs.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.m4bank.dvs.Tests" />
+      <option name="MAIN_CLASS_NAME" value="com.m4bank.dvs.Tests.Authorisation" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Authorisation.goodLoginNoPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AutoTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.m4bank.dvs.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.m4bank.dvs.Tests" />
+      <option name="MAIN_CLASS_NAME" value="com.m4bank.dvs.Tests.Authorisation" />
+      <option name="METHOD_NAME" value="goodLoginNoPassword" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Authorisation.noLoginNoPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AutoTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.m4bank.dvs.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.m4bank.dvs.Tests" />
+      <option name="MAIN_CLASS_NAME" value="com.m4bank.dvs.Tests.Authorisation" />
+      <option name="METHOD_NAME" value="noLoginNoPassword" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RUN" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="AutoTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.m4bank.dvs.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.m4bank.dvs" />
+      <option name="MAIN_CLASS_NAME" value="com.m4bank.dvs.RUN" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="JUnit" factoryName="JUnit">
+      <module name="AutoTest" />
+      <option name="PACKAGE_NAME" value="com.m4bank.dvs" />
+      <option name="MAIN_CLASS_NAME" value="com.m4bank.dvs.TestManager" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.RUN" />
+      <item itemvalue="JUnit.Unnamed" />
+      <item itemvalue="JUnit.RUN" />
+      <item itemvalue="JUnit.Authorisation" />
+      <item itemvalue="JUnit.Authorisation.goodLoginNoPassword" />
+      <item itemvalue="JUnit.Authorisation.noLoginNoPassword" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RUN" />
+        <item itemvalue="JUnit.Authorisation.noLoginNoPassword" />
+        <item itemvalue="JUnit.Authorisation.goodLoginNoPassword" />
+        <item itemvalue="JUnit.Authorisation" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b73032f0-0380-4366-80cb-b53706d3effe" name="Default" comment="" />
+      <created>1530261414758</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1530261414758</updated>
+      <workItem from="1530261417806" duration="14138000" />
+      <workItem from="1530373192989" duration="765000" />
+      <workItem from="1548857325122" duration="554000" />
+      <workItem from="1580469404892" duration="1919000" />
+      <workItem from="1581414479505" duration="2327000" />
+      <workItem from="1581432615123" duration="533000" />
+      <workItem from="1581487921108" duration="9633000" />
+      <workItem from="1581513680441" duration="3682000" />
+      <workItem from="1581517888146" duration="1105000" />
+      <workItem from="1581575322141" duration="4594000" />
+      <workItem from="1582195312651" duration="5725000" />
+      <workItem from="1582203420008" duration="2876000" />
+      <workItem from="1582635376109" duration="4035000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="51886000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/src/test/java/com/m4bank/dvs/Tests" />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="620" y="222" key="FileChooserDialogImpl" timestamp="1609689605519">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="620" y="222" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1609689605519" />
+    <state width="1637" height="336" key="GridCell.Tab.0.bottom" timestamp="1609694506442">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="336" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1609694506442" />
+    <state width="1637" height="336" key="GridCell.Tab.0.center" timestamp="1609694506442">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="336" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1609694506442" />
+    <state width="1637" height="336" key="GridCell.Tab.0.left" timestamp="1609694506442">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="336" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1609694506442" />
+    <state width="1637" height="336" key="GridCell.Tab.0.right" timestamp="1609694506442">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="336" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1609694506442" />
+    <state width="1637" height="325" key="GridCell.Tab.1.bottom" timestamp="1609694128289">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="325" key="GridCell.Tab.1.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1609694128289" />
+    <state width="1637" height="325" key="GridCell.Tab.1.center" timestamp="1609694128288">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="325" key="GridCell.Tab.1.center/0.0.1680.1010@0.0.1680.1010" timestamp="1609694128288" />
+    <state width="1637" height="325" key="GridCell.Tab.1.left" timestamp="1609694128288">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="325" key="GridCell.Tab.1.left/0.0.1680.1010@0.0.1680.1010" timestamp="1609694128288" />
+    <state width="1637" height="325" key="GridCell.Tab.1.right" timestamp="1609694128288">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="325" key="GridCell.Tab.1.right/0.0.1680.1010@0.0.1680.1010" timestamp="1609694128288" />
+    <state x="370" y="160" key="Maven.ArtifactSearchDialog" timestamp="1609678086017">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="370" y="160" key="Maven.ArtifactSearchDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1609678086017" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>AutoTest</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.google.code.findbugs:jsr305:1.3.9</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
